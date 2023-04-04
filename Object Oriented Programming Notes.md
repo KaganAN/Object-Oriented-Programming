@@ -26,14 +26,15 @@
   #### OOP in Python 3:
   ---
   - Class is a python 3 built in keyword which allows the creation of classes
+  
   Example:
-  '''Python 3
+  ```python
   class Person:
     pass #Empty
   #end of Person Class
   
   student1 = Person() #student1 now belongs to Person Object
-  '''
+  ```
   
   - Methods for classes are declared like a function
   - Initialization method is used as soon as an object of a class is called upon
@@ -55,11 +56,11 @@
   - Overriding is when two methods with the same name exist **and** have the same parameters
   - **You can't overload in Python 3**
   
-  #### Polymorphism
+  #### Polymorphism:
   ---
   - Polymorphism is a method which can be utilized across multiple classes and objects assuming the correct parametrs are met
   
-  #### Base Overrides
+  #### Base Overrides:
   --- 
   - Two different classes utilize the same attribute and/or method 
   - A child would override that universal method and utilize it differently
@@ -72,7 +73,7 @@
   
 # Slideshow 3 Notes:
 ---
-  #### Inheritance
+  #### Inheritance:
   ---
   - When an object/class gets its features from a parent class
       1. Single Inheritance: A child class inherting the features of a single superclass or a parent class
@@ -85,9 +86,10 @@
     1. Multi-Generational: Grandparent class --> Parent class --> Child class
     2. Multi-Parent: Parent A + Parent B --> Child class
     3. Mixture of 1 and 2
+
 # Slideshow 4 Notes:
 ---
-  #### Iterable Objects
+  #### Iterable Objects:
   ---
   - Objects which can be iterated through similarly to a sequence 
   - __iter__() allows objects to be iterable
