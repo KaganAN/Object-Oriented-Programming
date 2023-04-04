@@ -7,8 +7,8 @@
   - Objects in OOP (object oriented programming) is an instance in a class where an object can be a variable, function, or data structure (or a combination of them)
   #### The OOP Paradigm:
   ---
-  - Object Oriented Programming creates reusable programmed software systems
-  - Creates objects to use in said programmed software
+  - *Object Oriented Programming* creates reusable programmed software systems
+  - Creates **objects** to use in said programmed software
   - Uses definitions to interpret code
   
   Procedure-oriented:              OOP:
@@ -20,5 +20,28 @@
   - Classes are a collection of all objects which can be accessed from it
   - Classes have attributes
   - Attributes are an objects tools
-  - 
+  - Fields are any variables belonging to an object or class
+  - Methods are functions which objects are able to call upon
   
+  #### OOP in Python 3:
+  ---
+  - Class is a python 3 built in keyword which allows the creation of classes
+  Example:
+  '''Python 3
+  class Person:
+    pass #Empty
+  #end of Person Class
+  
+  student1 = Person() #student1 now belongs to Person Object
+  '''
+  
+          
+
+# Slideshow 2 Notes:
+---
+
+# Slideshow 3 Notes:
+---
+
+# Slideshow 4 Notes:
+---
