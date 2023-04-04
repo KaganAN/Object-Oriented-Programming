@@ -1,1 +1,24 @@
-
+# Slideshow 1 Notes:
+---
+  #### Objects:
+  ---
+  - There are two types of objects
+  - Objects in general computer science refer to any type of data that exists in the computers memory which has a value and can be called or referenced by an identifier
+  - Objects in OOP (object oriented programming) is an instance in a class where an object can be a variable, function, or data structure (or a combination of them)
+  #### The OOP Paradigm:
+  ---
+  - Object Oriented Programming creates reusable programmed software systems
+  - Creates objects to use in said programmed software
+  - Uses definitions to interpret code
+  
+  Procedure-oriented:              OOP:
+  - Be logical                     - Name attribute
+  - Complete tasks                 - Home address
+  - Complete tasks that humans     - Attributes related to humans
+    would be able to
+  
+  - Classes are a collection of all objects which can be accessed from it
+  - Classes have attributes
+  - Attributes are an objects tools
+  - 
+  
