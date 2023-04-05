@@ -1,13 +1,11 @@
 # Slideshow 1 Notes:
 ---
   #### Objects:
-  ---
   - There are [two](https://www.freecodecamp.org/news/object-oriented-programming-in-python/#:~:text=Python%2C%20like%20every%20other%20object,define%20a%20particular%20object%20type.) types of objects
   - **Objects in general computer science** refer to any type of data that exists in the computers memory which has a value and can be called or referenced by an identifier
   - **Objects in OOP (object oriented programming)** is an instance in a class where an object can be a variable, function, or data structure (or a combination of them)
   ---
   #### The OOP Paradigm:
-  ---
   - [*Object Oriented Programming*](https://www.educative.io/blog/object-oriented-programming) creates reusable programmed software systems
   - Creates **objects** to use in said programmed software
   - Uses definitions to interpret code
@@ -25,7 +23,6 @@
   - Methods are functions which objects are able to call upon
   ---
   #### OOP in Python 3:
-  ---
   - Class is a python 3 built in keyword which allows the creation of classes
   
   [*Example:*](https://docs.google.com/presentation/d/1wJ1SqLBaVSahdJUO41QRkyyLDmXpMWCROxV5TzdWsvU/edit#slide=id.g2a79f171fd_0_28)
@@ -45,7 +42,6 @@
 # Slideshow 2 Notes:
 ---
   #### Encapsulation: 
-  ---
   - **Encapsulation** is sued to restrict the access to certain classes and objects attributes/methods
   - This is useful for data protection and restricting what methods can be called upon
   - This is done in python by using double underscores as a prefix
@@ -66,30 +62,25 @@ class Student:
 ```
   ---
   #### Overloading and Overriding:
-  ---
   - [**Overloading**](https://www.pluralsight.com/guides/overload-methods-invoking-overload-methods-csharp) is when two methods with the same name exist in one class but possess different parameters
   - [**Overriding**](https://www.techopedia.com/definition/24010/overriding) is when two methods with the same name exist **and** have the same parameters
   - **You can't overload in Python 3**
   ---
   #### Polymorphism:
-  ---
   - **Polymorphism** is a method which can be utilized across multiple classes and objects assuming the correct parametrs are met
   ---
   #### Base Overrides:
-  --- 
   - Two *different* classes utilize the **same** attribute and/or method 
   - A child would override that universal method and utilize it differently
   - Those are the two fundamental concepts related to overriding and polymorphism dual utility in Python
   - This concept can be used to override built-in methods in Python 3
   ---
   #### [__repr__() base function](https://www.digitalocean.com/community/tutorials/python-str-repr-functions):
-  ---
   - This function allows us to **control** what is returned by the repr() string
   ---
 # Slideshow 3 Notes:
 ---
   #### Inheritance:
-  ---
   - When an object/class gets its features from a parent class
       1. *Single Inheritance:* A child class inherting the features of a single superclass or a parent class
       2. *Multiple Inheritance:* A child class inherting the features of mulitple parent classes
@@ -127,7 +118,6 @@ class Student(Person):
 # Slideshow 4 Notes:
 ---
   #### Iterable Objects:
-  ---
   - Objects which can be iterated through similarly to a sequence 
   - **__iter__()** allows objects to be iterable
   - **__next__()** grabs the next value while iterating
