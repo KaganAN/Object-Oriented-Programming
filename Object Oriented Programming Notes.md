@@ -87,6 +87,30 @@
     2. *Multi-Parent:* Parent A + Parent B --> Child class
     3. Mixture of 1 and 2
 
+  [*Example:*](https://docs.google.com/presentation/d/1Y_By4kpgBXSZrrpH0JwcwBKgZf3GcTAweFDXrnMZx-U/edit#slide=id.g55ff66ea53_0_14)
+  
+  **Parent Class**                
+  ```python
+  class Person:
+    def __init__(self, name):
+      self.__name = name
+      
+    def getName(self):
+      return self.__name
+```
+**Inherited Class**
+```python
+class Student(Person):
+  def __init__(self, name, num):
+    Person.__init__(self, name)
+    self.__sNum = num
+    
+  def getStudentName(self):
+    return("%s: %s" % (self.__sNum, self.getName()))
+```  
+
+  
+
 # Slideshow 4 Notes:
 ---
   #### Iterable Objects:
