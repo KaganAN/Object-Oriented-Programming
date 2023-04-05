@@ -49,7 +49,21 @@
   - **Encapsulation** is sued to restrict the access to certain classes and objects attributes/methods
   - This is useful for data protection and restricting what methods can be called upon
   - This is done in python by using double underscores as a prefix
-  
+
+[*Example*](https://docs.google.com/presentation/d/1BSBVPl27YKaFtiNa_6EPyUd5gnM5o60fKHdrmtp2jGk/edit#slide=id.g2a84dd718b_0_9)
+
+```python
+class Student:
+  def __init__(self, nameF, nameL, num):
+    self.firstName = nameF
+    self.lastname = nameL
+    self.__studentNumber = num
+    
+  def __getStudentNumber(self):
+    return self.__studentNumber
+    
+#if someone were to try and call on the student number it would result in an error because it is now encapsulated
+```
   #### Overloading and Overriding:
   ---
   - [**Overloading**](https://www.pluralsight.com/guides/overload-methods-invoking-overload-methods-csharp) is when two methods with the same name exist in one class but possess different parameters
